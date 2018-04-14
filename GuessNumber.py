@@ -16,7 +16,7 @@ while guess != secret and tries < 6:
     elif guess > secret:
         easygui.msgbox(str(guess) + '大一点点' + '第'+ str(tries+1) + '次')
     tries += 1
-    
+
 if guess == secret:
     easygui.msgbox("操 你太聪明了!猜对了")
 else:
