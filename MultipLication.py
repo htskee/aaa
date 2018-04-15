@@ -9,5 +9,5 @@ print("Here's your table ")
 #     print(str(number), '*', str(i), "=", str(s))
 while zuida > 0:
     s = number * zuida
-    zuida += -1
+    zuida += 1
     print(str(number), '*', str(zuida + 1), "=", str(s))
